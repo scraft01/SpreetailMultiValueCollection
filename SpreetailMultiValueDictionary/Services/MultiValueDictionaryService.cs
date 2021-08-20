@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace SpreetailMultiValueDictionary.Services
 {
@@ -88,7 +89,18 @@ namespace SpreetailMultiValueDictionary.Services
 
         public IEnumerable<string> GetAllItems()
         {
-            return MultiValueDictionary.Select(x => $"{x.Key}: {x.Value}");
+            var items = new List<string>();
+            foreach (var key in MultiValueDictionary.Keys)
+            {
+                if (!MultiValueDictionary.TryGetValue(key, out var values))
+                {
+                    continue;
+                }
+
+                items.AddRange(values.Select(value => $"{key}: {value}"));
+            }
+
+            return items;
         }
     }
 }
