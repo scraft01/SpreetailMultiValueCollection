@@ -1,0 +1,6 @@
+[2021-08-19 17:18:39.565] [Information] P52 () <> Application starting
+[2021-08-19 17:18:39.688] [Information] P52 () <> 0 0
+[2021-08-19 17:18:39.689] [Information] P52 () <> Application shutting down
+[2021-08-19 19:01:36.756] [Information] P52 () <> Application starting
+[2021-08-19 19:01:36.846] [Information] P52 () <> 0 0
+[2021-08-19 19:01:36.846] [Information] P52 () <> Application shutting down

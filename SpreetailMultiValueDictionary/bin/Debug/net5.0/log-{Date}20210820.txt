@@ -1,0 +1,130 @@
+[2021-08-20 10:55:50.760] [Information] P52 () <> Application starting
+[2021-08-20 10:55:50.858] [Fatal] P52 () <> Application terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'SpreetailMultiValueDictionary.Services.IMultiValueDictionaryService' while attempting to activate 'SpreetailMultiValueDictionary.Application'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at SpreetailMultiValueDictionary.Program.Main(String[] args) in C:\Projects\SpreetailMultiValueDictionary\SpreetailMultiValueDictionary\Program.cs:line 52
+[2021-08-20 10:56:11.543] [Information] P52 () <> Application starting
+[2021-08-20 10:56:11.655] [Fatal] P52 () <> Application terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'SpreetailMultiValueDictionary.Services.IMultiValueDictionaryService' while attempting to activate 'SpreetailMultiValueDictionary.Application'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at SpreetailMultiValueDictionary.Program.Main(String[] args) in C:\Projects\SpreetailMultiValueDictionary\SpreetailMultiValueDictionary\Program.cs:line 52
+[2021-08-20 10:58:23.454] [Information] P52 () <> Application starting
+[2021-08-20 10:58:23.560] [Fatal] P52 () <> Application terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'SpreetailMultiValueDictionary.Services.IMultiValueDictionaryService' while attempting to activate 'SpreetailMultiValueDictionary.Application'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at SpreetailMultiValueDictionary.Program.Main(String[] args) in C:\Projects\SpreetailMultiValueDictionary\SpreetailMultiValueDictionary\Program.cs:line 52
+[2021-08-20 11:00:12.629] [Information] P52 () <> Application starting
+[2021-08-20 11:00:12.701] [Fatal] P52 () <> Application terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'SpreetailMultiValueDictionary.Services.IMultiValueDictionaryService' while attempting to activate 'SpreetailMultiValueDictionary.Application'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at SpreetailMultiValueDictionary.Program.Main(String[] args) in C:\Projects\SpreetailMultiValueDictionary\SpreetailMultiValueDictionary\Program.cs:line 52
+[2021-08-20 11:00:23.963] [Information] P52 () <> Application starting
+[2021-08-20 11:00:24.037] [Fatal] P52 () <> Application terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'SpreetailMultiValueDictionary.Services.IMultiValueDictionaryService' while attempting to activate 'SpreetailMultiValueDictionary.Application'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at SpreetailMultiValueDictionary.Program.Main(String[] args) in C:\Projects\SpreetailMultiValueDictionary\SpreetailMultiValueDictionary\Program.cs:line 52
+[2021-08-20 11:00:49.541] [Information] P52 () <> Application starting
+[2021-08-20 11:05:46.385] [Information] P52 () <> Application starting
+[2021-08-20 11:08:17.453] [Information] P52 () <> Application starting
+[2021-08-20 11:12:38.027] [Information] P52 () <> Application starting
+[2021-08-20 11:12:54.770] [Warning] P52 () <> Error Response: Invalid input System.String[], please try again or EXIT
+[2021-08-20 11:13:27.353] [Warning] P52 () <> Error Response: Invalid input System.String[], please try again or EXIT
+[2021-08-20 11:18:50.616] [Information] P52 () <> Application starting
+[2021-08-20 11:19:43.099] [Information] P52 () <> Application starting
+[2021-08-20 11:19:45.990] [Warning] P52 () <> Error Response: Invalid input System.String[], please try again or EXIT
+[2021-08-20 11:21:43.126] [Warning] P52 () <> Error Response: Invalid input System.String[], please try again or EXIT
+[2021-08-20 11:22:14.063] [Information] P52 () <> Application starting
+[2021-08-20 11:25:01.789] [Information] P52 () <> Application starting
+[2021-08-20 11:25:15.485] [Information] P52 () <> Application starting
+[2021-08-20 11:25:18.640] [Fatal] P52 () <> Application terminated unexpectedly
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at SpreetailMultiValueDictionary.Application.Run() in C:\Projects\SpreetailMultiValueDictionary\SpreetailMultiValueDictionary\Application.cs:line 43
+   at SpreetailMultiValueDictionary.Program.Main(String[] args) in C:\Projects\SpreetailMultiValueDictionary\SpreetailMultiValueDictionary\Program.cs:line 53
+[2021-08-20 11:25:47.993] [Information] P52 () <> Application starting
+[2021-08-20 11:26:46.076] [Information] P52 () <> Application starting
+[2021-08-20 11:27:32.835] [Information] P52 () <> Application starting
+[2021-08-20 11:39:16.372] [Information] P52 () <> Application starting
+[2021-08-20 11:41:55.991] [Information] P52 () <> Application starting
+[2021-08-20 11:42:46.267] [Information] P52 () <> Application starting
+[2021-08-20 11:43:59.547] [Information] P52 () <> Application starting
+[2021-08-20 11:46:01.018] [Information] P52 () <> Application starting
+[2021-08-20 11:48:44.121] [Information] P52 () <> Application starting
+[2021-08-20 11:52:30.798] [Information] P52 () <> Application starting
+[2021-08-20 11:57:42.561] [Information] P52 () <> Application starting
+[2021-08-20 12:37:28.129] [Information] P52 () <> Application starting
+[2021-08-20 12:40:03.495] [Information] P52 () <> Application starting
+[2021-08-20 12:45:16.904] [Information] P52 () <> Application starting
+[2021-08-20 12:51:24.275] [Information] P52 () <> Application starting
+[2021-08-20 12:53:23.114] [Information] P52 () <> Application starting
+[2021-08-20 12:55:07.900] [Information] P52 () <> Application starting
+[2021-08-20 12:55:35.058] [Information] P52 () <> Application starting
+[2021-08-20 13:00:34.191] [Information] P52 () <> Application starting
+[2021-08-20 13:03:09.225] [Information] P52 () <> Application starting
+[2021-08-20 13:03:38.052] [Information] P52 () <> Application starting
+[2021-08-20 13:11:18.906] [Information] P52 () <> Application starting
+[2021-08-20 13:13:57.273] [Information] P52 () <> Application starting

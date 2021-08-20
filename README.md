@@ -1,2 +1,2 @@
-# SpreetailMultiValueCollection
-Work sample for review with Spreetail dev team.
+# Spreetail MultiValueCollection
+This work sample includes 
